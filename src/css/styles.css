@@ -17,6 +17,8 @@
 @import url('./back-link.css');
 @import url('./footer.css');
 
+/* TASK 1 */
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -45,4 +47,54 @@ img {
 
 .gallery li:hover {
   transform: scale(1.05);
+}
+
+/* TASK 2 */
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  align-items: center;
+  justify-content: center;
+  max-width: 360px;
+  margin: 0 auto;
+  row-gap: 8px;
+}
+
+.feedback-form label {
+  width: 360px;
+  text-align: left;
+}
+
+.feedback-form input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding: 8px 16px;
+}
+
+.feedback-form textarea {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 80px;
+  padding: 8px 16px;
+}
+
+.feedback-form button {
+  align-self: flex-start;
+  display: block;
+  width: 86px;
+  height: 40px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #4e75ff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-top: 8px;
 }
